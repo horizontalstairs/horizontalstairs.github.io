@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Eater&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Butcherman&family=Eater&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Butcherman&family=Dela+Gothic+One&family=Eater&display=swap');
+
+body{
+    background: url(beans.png);
+    background-size: cover; /* This will make the image cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    background-attachment: fixed; /* Optional: Fixed background */
+    /* Additional styles for your body */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+.menu{
+    width: 80%;
+    background-color: rgb(233, 206, 171);                               ;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 50px;
+    border: 1px solid;
+    
+}
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+.navbar li{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: inline;
+    padding: 0px 20px;
+    justify-content: space-around;
+}
+.navbar li a{
+transition: all 0.5s ease 0s;
+}
+.navbar li a:hover{
+    color: chocolate;
+    }
+    
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    
+}
+.menu-btn {
+    display: none; /* Hide the button by default */
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+
+}
+h1 {
+    text-shadow:
+    2px 2px 0 rgb(255, 102, 0),    /* Right and bottom */
+    -2px -2px 0 rgb(255, 123, 0),   /* Left and top */
+     2px -2px 0 rgb(255, 119, 0),   /* Right and top */
+    -2px 2px 0 rgb(255, 94, 0); 
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Eater;
+}
+h2, h3{
+    text-shadow:
+        2px 2px 0 rgb(255, 102, 0),    /* Right and bottom */
+       -2px -2px 0 rgb(255, 123, 0),   /* Left and top */
+        2px -2px 0 rgb(255, 119, 0),   /* Right and top */
+       -2px 2px 0 rgb(255, 94, 0); 
+    font-family: Butcherman;
+    font-size: 30px;
+    text-align: center;
+}
+p{
+    text-align: center;
+    font-family: Dela Gothic One;
+    margin: auto;
+    font-size: 0.8rem;
+}
+
+.established{
+    text-align: center;
+    font-size: 18px;
+    font-family: cursive;
+}
+.item p{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.price {
+    text-align: right;
+    width: 25%;
+}
+.flavor, .dessert{
+    text-align: left;
+    width: 75%;
+}
+hr{
+    background-color: black;
+    border-color: black;
+    height: 3px;
+}
+.icon img{
+    display: inline-block;
+    margin-left: 48%;
+    width: 36px;
+}
+
+.logo img{
+    display: flex;
+    float: left;
+    width: 100px;
+   
+}
+.coffee-shop-image {
+    display: flex;
+    flex: 1;
+    padding: 10px;
+    width: 100%;
+}
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+.new-section {
+    background-color: rgb(148, 107, 84); /* Set the background color to brown */
+    padding: 20px; /* Add padding for spacing */
+    color: rgb(244, 244, 244); /* Set text color to white for better readability */
+}
+.hours{
+    margin-right: 3%;
+    justify-content: center;
+    text-align: center;
+    list-style-type: none;
+}
+/* Style the content within the new section as needed */
+.new-section h2 {
+    font-size: 24px; /* Adjust the font size for the heading */
+}
+
+.new-section p {
+    font-size: 16px; /* Adjust the font size for the paragraph */
+}
+.coffee-shop-image img {
+    border-radius: 50px;
+    width: 60%;
+    height: auto;
+    display: block;
+    margin-left: 1%;
+    width: 100%;
+}
+.caption{
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    margin: auto;
+}
+.image-container img {
+    float: left; /* Float the image to the left */
+    margin-right: 10px; /* Add some spacing between the image and the caption */
+}
+.image-container {
+    width: 100%;
+    overflow: hidden; /* Clear any floats within the container */
+}
+.location img{
+    width: 80%;
+    display: flex;
+    margin: auto;
+    border-radius: 50px;
+    padding: 10px;
+}
+.contact-section {
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Style form elements */
+.form-group {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="tel"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    display: block;
+    margin: 0 auto;
+}
+
+button[type="submit"]:hover {
+    background-color: chocolate;
+}
+@media screen and (min-width: 768px) {
+.menu{
+    min-width: 768px;
+}
+.navbar{
+    min-width: 768px;
+}
+   .caption{
+    display: inline-block;
+    
+   }
+   .header{
+    min-width: 768px;
+   }
+   
+}
+@media screen and (max-width: 600px){
+    .coffee-shop-image {
+        display: block; /* Display the image as a block element */
+        margin: 0 auto; /* Center the image horizontally */
+        text-align: center; /* Center the text below the image */
+      }
+    
+      .coffee-shop-image img {
+        max-width: 100%; /* Make the image responsive within its container */
+        height: auto;
+      }
+    
+      p {
+        text-align: center; /* Center the paragraph text */
+        margin-top: 10px; /* Add some spacing between the image and paragraph */
+      }
+      nav li {
+        display: block; /* Make list items stack vertically */
+        margin: 10px 0; /* Adjust spacing between links */
+    }
+    .navbar {
+        text-align: left; /* Align links to the left on small screens */
+        display: none; /* Hide the navbar links by default */
+    }
+}
+@media screen and (max-width: 425px) {
+    .menu {
+        min-width: 425px;
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+      }
+    
+      .menu img {
+        margin-bottom: 20px; /* Add spacing between the image and text */
+      }
+      .navbar {
+        text-align: left; /* Align links to the left on small screens */
+        display: flex; /* Hide the navbar links by default */
+    }
+    nav li {
+        display: block; /* Make list items stack vertically */
+        margin: 10px 0; /* Adjust spacing between links */
+    }
+   .caption{
+    flex-direction: column; /* Revert to horizontal layout */
+    align-items: end;
+    max-width: 425px;
+   }
+   .coffee-shop-image{
+    margin-bottom: 0; /* Remove spacing between the image and text */
+    margin-right: 20px;
+   }
+   .header{
+    justify-content: space-around;
+    margin-top: 5%;
+    max-width: 425px;
+   }
+}
+@media screen and (max-width: 390px) {
+    .menu {
+        min-width: 390px;
+        display: flex;
+        flex-direction: column; /* Stack items vertically */
+      }
+    
+      .menu img {
+        margin-bottom: 20px; /* Add spacing between the image and text */
+      }
+      .navbar {
+        text-align: left; /* Align links to the left on small screens */
+        display: flex; /* Hide the navbar links by default */
+    }
+    nav li {
+        display: block; /* Make list items stack vertically */
+        margin: 10px 0; /* Adjust spacing between links */
+    }
+   .caption{
+    flex-direction: column; /* Revert to horizontal layout */
+    align-items: end;
+    max-width: 390px;
+   }
+   .coffee-shop-image{
+    margin-bottom: 0; /* Remove spacing between the image and text */
+    margin-right: 20px;
+   }
+   .header{
+    justify-content: space-around;
+    margin-top: 5%;
+    max-width: 390px;
+   }
+}
+@media screen and (max-width: 320px) {
+    
+    .menu{
+        min-width: 320px;
+    }
+    nav li {
+        display: block; /* Make list items stack vertically */
+        margin: 10px 0; /* Adjust spacing between links */
+    }
+   .caption{
+    display: inline-block;
+    
+   }
+   .header{
+    min-width: 320px;
+   }
+}
